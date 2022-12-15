@@ -1,12 +1,12 @@
 body {
-  background-image: linear-gradient(to bottom right, rgb(0, 255, 200), rgb(217, 233, 0) )
+  background-image: linear-gradient(to bottom left, rgb(255, 255, 255), rgb(20, 20, 20) )
 }
 
 .nav {
     position: sticky;
     top: 0px;
     overflow: hidden;
-    background-color: rgba(112, 35, 35, 0.534);
+    background-color: rgb(89, 89, 89);
     
   }
 
@@ -40,10 +40,13 @@ h1 {
 
 .intro{
   position: static;
-  top: 20%;
-  animation: rotera 0.5s infinite linear;
-}
+  margin-top: 5%;
+  margin-bottom: 5%;
 
+}
+.intro :hover{
+  animation: rotera 0.1s infinite linear;
+}
 
 .introbild{
   width: 25%;
@@ -51,7 +54,7 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border: 10px solid rgba(40, 1, 24, 0.547);
+  border: 10px solid rgb(0, 0, 0);
   padding: 0px;
   position: static;
   top: 20;
@@ -59,11 +62,11 @@ h1 {
   
 @keyframes rotera {
   from {
-     transform: rotate(0deg);
-   }
+      transform: rotate(0deg);
+    }
   to {
     transform: rotate(359deg);
-   }
+    }
 }
   
 
