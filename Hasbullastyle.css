@@ -45,7 +45,7 @@ h1 {
 
 }
 .intro :hover{
-  animation: rotera 0.1s infinite linear;
+  animation: rotera 0.2s infinite linear;
 }
 
 .introbild{
